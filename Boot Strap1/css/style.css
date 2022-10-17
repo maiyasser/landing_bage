@@ -1,0 +1,209 @@
+.btba.navbar-toggler{
+    box-shadow: 0 0 0 0;
+}
+
+.btn-get-started.btn.btn-outline-success{
+border-color: #722ED1;
+border-radius: 20px;
+color:#722ED1 ;
+transition-duration: 0s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+.btn-get-started.btn.btn-outline-success:hover{
+    width: 12rem;
+    background-color: #722ED1;
+    color: #ffff;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  .mai1{
+    background-image: url(../img/Path\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /* The element to apply the animation to */
+/* .navbar-brand.img-logo{
+ 
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+div {
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 1s;
+  }
+  
+  @keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    
+  } */
+  .-page  
+  {
+  background-image: url(../img/Path\ 1.png);
+}
+.all-page{
+  align-items: center;
+    flex-wrap: wrap;
+  padding-top: 20rem;
+}
+/* .padding-mai{
+  padding-right: 15rem;
+} */
+.header-a{
+  height: 40px;
+  width: 263px;
+  background-color: #F9F0FF;
+  color: #722ED1;
+  border-radius: 20px;
+  text-align: center;
+  padding: 7px;
+}
+.header-a a{
+  color: #722ED1; 
+}
+.text{
+  font-size: 2.5em;
+  color: #160637;
+  padding-bottom: 1rem;
+}
+.text2{
+  font-size: 1em;
+  color: #8989A2;
+  padding-bottom: 1rem;
+
+}
+.text-senter-a{
+  background-color:#F9F0FF ;
+  color: #722ED1;
+  border-radius: 20px;
+  padding: 5px;
+  height: 33px;
+  width: 150px;
+   margin: auto;
+
+}
+.text-senter-a a{
+  color: #722ED1;
+  text-decoration: none;
+}
+.third-btn{
+  border-radius: 20px;
+  background-color: #F9F0FF;
+  width: 195px;
+  padding:5px 13px;
+  text-align: start;
+}
+.third-btn a{
+  color: #722ED1;
+  text-decoration: none;
+}
+  .start.btn.btn-primary{
+    padding: 0 0 10 10 ;
+    border-radius: 1rem;
+    border:none;
+    background-color: #ffffff;
+    color: #000;
+  }
+  .start.btn.btn-primary:hover{
+    background-color:#722ED1;
+    color: #ffffff;
+  }
+  .product.btn.btn-primary{
+    background-color:#9475c0;
+    color: #ffffff;
+  }
+
+  .flex{
+    
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .pading-mai.text-midle{
+    margin: auto;
+    text-align: center;
+  }
+  .box-3{
+    padding-top: 20rem;
+  }
+  img.all-page{
+    background-image: url(../img/Concentric\ circles.png);
+  }
+  .flex-col{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+ .img1.-page{
+  width: 40rem;
+ }
+ .card-box.card{
+  border: none;
+ }
+ .img-card{
+  width: 10%;
+ }
+ .lamis{
+  height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-items: baseline;
+ }
+ .pading-mai.text-midle{
+  padding-bottom: 20rem;
+  width: 80vh;
+ }
+ .inner img{
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  margin: 1rem;
+}
+ .container-carocal button{
+  background-color:#722ED1 ;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  }
+  .container-carocal{
+    margin-top: 5rm;
+    margin-bottom: 5rem;
+  }
+  .mosallah-photos{
+    padding-top: 12rem;
+    background-image: url(../img/Path\ 606.png);
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+  }
+  .igon{
+  width:20vh
+}
+h1-font{
+  font-size: 1.5rem;
+}
+.footer{
+  width: 80vh;
+  justify-content: center;
+}
+.section-five{
+  padding: 10rem 0rem;
+}
+.programming{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  min-height: 100%;
+}
