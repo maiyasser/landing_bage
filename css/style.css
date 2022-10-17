@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:Inter-Bold ;
+    src: url(../font/Inter-Bold.ttf);
+}
+@font-face{
+    font-family:Inter-Regular ;
+    src: url(../font/Inter-Regular.ttf);
+}
+@font-face{
+    font-family:Inter-Medium ;
+    src: url(../font/Inter-Medium.ttf);
+}
+@font-face{
+    font-family:Poppins-Bold ;
+    src: url(../font/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family:Poppins-Regular ;
+    src: url(../font/Poppins-Regular.ttf);
+}
+p{
+font-family:Poppins-Regular ;
+font-size: 20px;
+color: rgba(255, 255, 255, 0.71);
+}
+
+.all-page{
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 2em;
+    padding-bottom: 4em;
+  }
+  .img-logo
+  {
+    width: 150px;
+  height: 105px; 
+}
+
+  .header{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    padding: 2rem;
+    /* display: flex; */
+}
+.remaining{
+    font-size: 30px;
+    font-family:Inter-Bold;
+    color: #0093FF;
+}
+.namber{
+    color: rgba(48, 58, 66, 1);
+    font-family:Poppins-Bold ;
+}
+.button{
+    margin-top: 31px;
+    padding: 11px 50px;
+    text-align: center;
+    color: rgb(250, 247, 247);
+    background-color: #0093FF;
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+a{
+    font-size: 18px;
+    font-family:Inter-Regular ;
+    color: rgba(48, 58, 66, 1);
+    padding: 1rem;
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(0, 147, 255, 1);
+    text-decoration:dashed;
+
+}
+.boxes{
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: baseline;
+}
+.box-header{
+    padding:10px 20px ;
+    background-color: rgba(235, 235, 235, 1);
+    font-size: 20px;
+}
+.padding-box{
+    padding:10px;
+}
+.luxury{
+    font-size: 55px;
+    font-family:Poppins-Bold ;
+    color: rgba(48, 58, 66, 1);
+}
+.text-in-box-month{
+    font-size: 18px;
+    font-family:Inter-Medium ;
+color: rgba(48, 58, 66, 1);
+}
+.ditaels{
+    font-size: 28px;
+    font-family:Poppins-Regular ;
+color: rgba(48, 58, 66, 1);
+}
+.all-header{
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    padding-top: 3rem;
+}
+
+.longer-button{
+border-radius: 10px;
+    font-family:Inter-Bold ;
+    font-size: 18px;
+    color: rgba(0, 147, 255, 1);
+    padding: 1rem 3rem;
+    border-color: rgba(0, 147, 255, 1);
+    background-color: #fff;
+}
+.longer-button:hover{
+    color:#fff;
+    background-color: rgba(0, 147, 255, 1);
+}
+.b1{
+    margin-right: 2rem;
+}
+.footer{
+    color: #fff;
+    font-size: 20px;
+    padding: 1rem;
+    background-color:rgba(22, 27, 31, 1);
+}
+.svg{
+    display: flex;
+   padding-top: 20px;
+  }
+  .img-svg{
+  
+    padding-right: 21px;
+  }
+  .u{
+    padding-left: 5rem;
+      padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .link{
+    padding:10px;
+  }
+  .pra{
+    font-size: 25px;
+    padding-bottom: 2.5rem;
+    color: #fff;
+    font-family:Poppins-Bold ;
+
+  
+  }
+  
+  .class{
+    padding-left: 18vw;
+    padding-right: 25vw;
+  }
+  .end{
+   text-align: center;
+  }
+  .logo-end{
+    width: 5rem;
+    padding-right: 1rem;
+  }
+  .text-in-footer{
+    font-size: 18px;
+  }
+  .list{
+    font-size: 18px;
+    font-family:Inter-Regular ;
+    color: rgba(48, 58, 66, 1);
+    padding: 1rem;
+    text-decoration: none;
+  }
+  li {
+    list-style-type: none;
+  }
+  .submenu {
+    display: flex;
+  }
+  /*  */
+  .logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    padding-left: 3em;
+  }
+  .menu {
+    display: flex;
+    padding-right: 5em;
+  }
+  a.navegation {
+    margin-right: 1em;
+    font-family: inter-bold;
+    font-size: 12px;
+    color: #303a42;
+  }
+  a.nav:hover {
+    color: #0093ff;
+    border-bottom: 1px solid #0093ff;
+  }
+  button.button {
+    padding: 0.6em 1.2em;
+    border: none;
+    border-radius: 6px;
+    background-color: #0093ff;
+    font-family: inter-bold;
+    color: #ffff;
+  }
+  button.button:hover {
+    background-color: #6389a4;
+  }
+  i.fas.fa-caret-square-down {
+    display: none;
+  }

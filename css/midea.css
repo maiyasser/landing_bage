@@ -1,0 +1,213 @@
+@media (max-width : 1800px) {
+    .u{
+        padding-left: 1rem;
+          padding-right: 1rem;
+        display: flex;
+        justify-content: space-between;
+      }
+      .class{
+        padding-left: 10vw;
+        padding-right: 10vw;
+      }
+}
+
+
+@media (max-width : 1200px) {
+    .u{
+        padding-left: 1rem;
+          padding-right: 1rem;
+        display: block;
+        justify-content: space-between;
+      }
+      .link{
+        padding:10px;
+      }
+      .pra{
+        font-size: 25px;
+        padding-bottom: 2.5rem;
+        color: #fff;
+        font-family:Poppins-Bold ;
+    
+      
+      }
+      
+      .class{
+        padding-left: 0vw;
+        padding-right: 0vw;
+      }
+}
+
+
+
+@media (max-width : 600px) {
+    .all-page{
+        padding:2rem;
+      }
+      .img-logo
+      {width: 250px;
+    }
+    
+      .header{
+       
+        display: block; 
+    }
+    .nav{
+        padding: 2rem;
+    }
+    /* .button{
+        margin-top: 31px;
+        padding: 11px 50px;
+        text-align: center;
+        color: rgb(250, 247, 247);
+        background-color: #0093FF;
+        border: none;
+        font-size: 18px;
+        border-radius: 20px;
+    
+    } */
+    .img-Rectangle{
+        width: 23rem;
+    }
+    a{
+        font-size: 18px;
+        font-family:Inter-Regular ;
+        color: rgba(48, 58, 66, 1);
+        padding: 1rem;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgba(0, 147, 255, 1);
+        text-decoration:dashed;
+    
+    }
+    .boxes{
+        padding-bottom: 2rem;
+        display: block;
+        /* align-items: baseline; */
+    }
+    .box-header{
+        padding:10px 20px ;
+        background-color: rgba(235, 235, 235, 1);
+        font-size: 20px;
+    }
+    .padding-box{
+        padding:10px;
+    }
+    .luxury{
+        font-size: 55px;
+        font-family:Poppins-Bold ;
+        color: rgba(48, 58, 66, 1);
+    }
+    .text-in-box-month{
+        font-size: 18px;
+        font-family:Inter-Medium ;
+    color: rgba(48, 58, 66, 1);
+    }
+    .ditaels{
+        font-size: 28px;
+        font-family:Poppins-Regular ;
+    color: rgba(48, 58, 66, 1);
+    }
+    .all-header{
+        padding-bottom: 10rem;
+        display:block;
+    }
+    .buttons{
+        display: block;
+        padding-top: 3rem;
+         
+    }
+    
+    .longer-button{
+        margin-bottom: 1rem;
+    border-radius: 10px;
+        font-family:Inter-Bold ;
+        font-size: 18px;
+        color: rgba(0, 147, 255, 1);
+        padding: 1rem;
+        border-color: rgba(0, 147, 255, 1);
+        background-color: #fff;
+    }
+    .longer-button:hover{
+        color:#fff;
+        background-color: rgba(0, 147, 255, 1);
+    }
+    .b1{
+        margin-right: 2rem;
+    }
+    .footer{
+        color: #fff;
+        font-size: 20px;
+        padding: 1rem;
+        background-color:rgba(22, 27, 31, 1);
+    }
+    .svg{
+        /* display: flex; */
+       padding-top: 20px;
+      }
+      .img-svg{
+      
+        padding-right: 21px;
+      }
+      .u{
+        padding-left: 1rem;
+          padding-right: 1rem;
+        display: block;
+        justify-content: space-between;
+      }
+      .link{
+        padding:10px;
+      }
+      .pra{
+        font-size: 25px;
+        padding-bottom: 2.5rem;
+        color: #fff;
+        font-family:Poppins-Bold ;
+    
+      
+      }
+      
+      .class{
+        padding-left: 1vw;
+        padding-right: 1vw;
+      }
+      .end{
+       text-align: center;
+      }
+      .logo-end{
+        width: 5rem;
+        padding-right: 1rem;
+      }
+      .text-in-footer{
+        font-size: 18px;
+      }
+    .class{
+        padding-left: 1vw;
+        padding-right: 1vw;
+      }
+      .menu:hover .submenu {
+        background-color: #fff;
+        padding: 1em;
+        display: block;
+        border: 2px solid rgba(163, 163, 177, 0.48);
+        line-height: 1.5em;
+        margin-top: 2em;
+      }
+      i.fas.fa-caret-square-down {
+        background-color: #0093ff;
+        font-size: 1.5em;
+        padding: 0.3em;
+        border-radius: 8px;
+        color: #fff;
+      }
+      i.fas.fa-caret-square-down:hover {
+        background-color: #6389a4;
+        width: 100px;
+      }
+      i.fas.fa-caret-square-down {
+        display: block;
+      }
+      .submenu {
+        display: none;
+      }
+}
